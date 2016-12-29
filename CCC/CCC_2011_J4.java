@@ -4,7 +4,8 @@ public class CCC_2011_J4 {
 	public static Scanner kbd = new Scanner(System.in);
 	
 	public static void main (String[] args) {
-		//Note: ground array is accidentally set to [y][x]...
+		//Note: ground array is accidentally set to [y][x]
+		//Note: A BOOL array is used instead of INT to save memory
 		
 		int curX = 199, curY = 5;
 		boolean[][] ground = new boolean[200][400];
