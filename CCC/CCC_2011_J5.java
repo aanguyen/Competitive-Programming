@@ -14,7 +14,7 @@ public class CCC_2011_J5 {
 		int ans = 1;
 		for (int i = 0; i < people; i++)
 			if (invite[i]==num)
-				ans *= (1+ways(invite, number, i+1));
+				ans *= (1+ways(invite, people, i+1));
 		return ans;
 	}
 }
